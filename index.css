@@ -1,0 +1,105 @@
+.head{
+	color:white;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 72px;
+	padding: 10px 15px;
+	text-align:center ;
+	margin:0px;
+
+	animation-name: moveinleft;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+.nav{
+	border-collapse: collapse;
+	color :white
+	
+}
+
+.Intro
+{
+	position: sticky;
+}
+
+
+li
+{
+	padding: 10px 110px;
+	margin:0px;
+	display: inline-block;
+
+
+}
+
+ul
+{
+	margin:0px;
+	border:5px solid red;
+	position: sticky;
+}
+
+body
+{
+	margin:0px;
+	background-color: black;
+
+	background-size: cover;
+}
+
+.body
+{
+color:white;
+margin: 0;	
+
+animation-name: into_ani;
+	animation-direction: 3s;
+}
+
+@keyframes moveinleft
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateX(-100px) ; 
+
+	}
+	40%
+	{
+		transform: rotate(4deg);
+		background-color: green;
+	}
+	80%
+	{
+
+		
+		transform:translateX(-10px) rotate(-4deg);
+		background-color: purple;
+	}
+	100%
+	{
+		opacity: 1;
+		transform: translateX(0px);
+		background-color:black; 
+	}
+}
+
+
+
+
+@keyframes into_ani
+{
+	0%{
+		opacity: 1;
+	}
+	50%
+	{
+		color:red;
+	}
+	100%
+	{
+		opacity: 1;
+		color:white;
+	}
+}

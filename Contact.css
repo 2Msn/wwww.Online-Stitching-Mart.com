@@ -1,0 +1,49 @@
+.head{
+	color:white;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 72px;
+	padding: 10px 15px;
+	text-align:center ;
+	margin:0px;
+}
+
+.nav{
+	color :black;
+	background-color:white;
+}
+
+li
+{
+	padding: 10px 110px;
+	margin:0px;
+	display: inline-block;
+
+}
+
+ul
+{
+	margin:0px;
+	border:5px solid green;
+}
+
+body
+{
+	background-image: url("bg.jpg");
+	margin:0px;
+	background-size: cover;
+}
+
+
+.c1{
+	text-align: center;	
+	font-size: 28px;
+	color:red;
+}
+
+h4
+{
+	font-size: 18px;
+	color:navy;
+	font-family: cursive;
+}

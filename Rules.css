@@ -1,0 +1,53 @@
+body
+{
+	margin:0px;
+}
+.head{
+	color:white;
+	background-color: black;
+	font-family: fantasy;
+	font-size: 72px;
+	padding: 10px 15px;
+	text-align:center ;
+	margin:0px;
+}
+
+.nav{
+	color :white;
+	background-color:black;
+}
+
+li
+{
+	padding: 10px 110px;
+	margin:0px;
+	display: inline-block;
+
+}
+
+ul
+{
+	margin:0px;
+	border:5px solid black;
+}
+
+.rule
+{
+	margin-top:0px;
+
+	text-align: left;
+	background-color: skyblue;
+}
+
+li
+{
+
+	font-size: 20px;
+	font-family: cursive;
+}
+
+ol
+{
+	margin:0px;
+
+}
